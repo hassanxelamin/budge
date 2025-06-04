@@ -1,16 +1,16 @@
 {
   "expo": {
-    "name": "budge",
+    "name": "settle",
     "slug": "budge",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "budge",
+    "scheme": "settle",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.ternalxyz.budge",
+      "bundleIdentifier": "com.ternalxyz.settle",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
       }
@@ -20,7 +20,8 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.ternalxyz.settle"
     },
     "web": {
       "bundler": "metro",
@@ -37,7 +38,8 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
-      ]
+      ],
+      "expo-secure-store"
     ],
     "experiments": {
       "typedRoutes": true
@@ -47,6 +49,7 @@
       "eas": {
         "projectId": "d7b9c6e3-107f-408c-b225-f461ea393b56"
       }
-    }
+    },
+    "owner": "ternalxyz"
   }
 }

@@ -1,0 +1,137 @@
+{
+  "identifier": "default",
+  "availablePackages": [
+    {
+      "packageType": "ANNUAL",
+      "product": {
+        "pricePerYear": 29.99,
+        "description": "Unlimited access to all premium game features",
+        "price": 29.99,
+        "priceString": "$29.99",
+        "discounts": [],
+        "introPrice": {
+          "cycles": 1,
+          "periodUnit": "DAY",
+          "priceString": "$0.00",
+          "price": 0,
+          "period": "P3D",
+          "periodNumberOfUnits": 3
+        },
+        "pricePerMonthString": "$2.50",
+        "currencyCode": "USD",
+        "pricePerYearString": "$29.99",
+        "subscriptionPeriod": "P1Y",
+        "pricePerWeekString": "$0.58",
+        "productCategory": "SUBSCRIPTION",
+        "productType": "AUTO_RENEWABLE_SUBSCRIPTION",
+        "title": "Unlock EpicGame Pro",
+        "pricePerWeek": 0.58,
+        "pricePerMonth": 2.5,
+        "identifier": "pro_yearly_3499"
+      },
+      "offeringIdentifier": "default",
+      "identifier": "$rc_annual",
+      "presentedOfferingContext": {
+        "targetingContext": null,
+        "offeringIdentifier": "default",
+        "placementIdentifier": null
+      }
+    },
+    {
+      "packageType": "MONTHLY",
+      "offeringIdentifier": "default",
+      "product": {
+        "price": 8.99,
+        "pricePerWeekString": "$2.07",
+        "pricePerYear": 107.88,
+        "pricePerWeek": 2.07,
+        "productCategory": "SUBSCRIPTION",
+        "introPrice": null,
+        "title": "Unlock EpicGame Pro",
+        "priceString": "$8.99",
+        "pricePerYearString": "$107.88",
+        "pricePerMonthString": "$8.99",
+        "discounts": [],
+        "pricePerMonth": 8.99,
+        "subscriptionPeriod": "P1M",
+        "productType": "AUTO_RENEWABLE_SUBSCRIPTION",
+        "description": "Unlimited access to all premium game features",
+        "identifier": "pro_monthly_999",
+        "currencyCode": "USD"
+      },
+      "presentedOfferingContext": {
+        "targetingContext": null,
+        "offeringIdentifier": "default",
+        "placementIdentifier": null
+      },
+      "identifier": "$rc_monthly"
+    }
+  ],
+  "monthly": {
+    "product": {
+      "currencyCode": "USD",
+      "introPrice": null,
+      "pricePerWeek": 2.07,
+      "price": 8.99,
+      "priceString": "$8.99",
+      "pricePerWeekString": "$2.07",
+      "pricePerMonth": 8.99,
+      "pricePerMonthString": "$8.99",
+      "title": "Unlock EpicGame Pro",
+      "pricePerYearString": "$107.88",
+      "description": "Unlimited access to all premium game features",
+      "productCategory": "SUBSCRIPTION",
+      "pricePerYear": 107.88,
+      "identifier": "pro_monthly_999",
+      "discounts": [],
+      "productType": "AUTO_RENEWABLE_SUBSCRIPTION",
+      "subscriptionPeriod": "P1M"
+    },
+    "identifier": "$rc_monthly",
+    "offeringIdentifier": "default",
+    "presentedOfferingContext": {
+      "targetingContext": null,
+      "offeringIdentifier": "default",
+      "placementIdentifier": null
+    },
+    "packageType": "MONTHLY"
+  },
+  "serverDescription": "Default Offering",
+  "metadata": {},
+  "annual": {
+    "offeringIdentifier": "default",
+    "product": {
+      "pricePerYearString": "$29.99",
+      "description": "Unlimited access to all premium game features",
+      "pricePerWeekString": "$0.58",
+      "currencyCode": "USD",
+      "title": "Unlock EpicGame Pro",
+      "price": 29.99,
+      "pricePerMonth": 2.5,
+      "pricePerMonthString": "$2.50",
+      "discounts": [],
+      "identifier": "pro_yearly_3499",
+      "pricePerWeek": 0.58,
+      "priceString": "$29.99",
+      "productCategory": "SUBSCRIPTION",
+      "pricePerYear": 29.99,
+      "productType": "AUTO_RENEWABLE_SUBSCRIPTION",
+      "introPrice": {
+        "priceString": "$0.00",
+        "period": "P3D",
+        "cycles": 1,
+        "periodUnit": "DAY",
+        "periodNumberOfUnits": 3,
+        "price": 0
+      },
+      "subscriptionPeriod": "P1Y"
+    },
+    "packageType": "ANNUAL",
+    "presentedOfferingContext": {
+      "offeringIdentifier": "default",
+      "placementIdentifier": null,
+      "targetingContext": null
+    },
+    "identifier": "$rc_annual"
+  }
+}
